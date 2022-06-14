@@ -1,0 +1,34 @@
+{
+  "name": "kpj-evp-agent-launcher",
+  "version": "0.1.0",
+  "description": "",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "license-checker": "license-checker",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.5.10",
+    "@grpc/proto-loader": "^0.6.9",
+    "axios": "^0.26.0",
+    "glob": "^7.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwk-to-pem": "^2.0.5",
+    "randomstring": "^1.2.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "license-checker": "^25.0.1"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "<rootDir>/*.js"
+    ]
+  }
+}
