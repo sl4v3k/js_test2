@@ -14,7 +14,7 @@
     "@grpc/grpc-js": "^1.5.10",
     "@grpc/proto-loader": "^0.6.9",
     "axios": "^0.26.0",
-    "glob": "^7.2.0",
+    "glob": "^7.2.3",
     "jsonwebtoken": "^8.5.1",
     "jwk-to-pem": "^2.0.5",
     "randomstring": "^1.2.2",
